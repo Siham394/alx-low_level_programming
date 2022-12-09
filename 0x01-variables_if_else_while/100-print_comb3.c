@@ -7,5 +7,14 @@
 int main(void)
 {
 	int a,b;
-
-	for(a = 1; a != b; a++)
+	a=1;
+	b=1;
+	if (a = b)
+		putchar((a % 10) + '0');
+	else if (a < b)
+		putchar((b % 10) + 'o');
+	else if(a > b)
+		putchar((a % 10) + 'o');
+	a++;
+		b++;
+}
