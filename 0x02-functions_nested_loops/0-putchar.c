@@ -4,7 +4,7 @@
  * Return 0
  */
 
-void _putchar(void)
+void _first(void)
 {
 	printf("_putchar\n");
 }
@@ -16,7 +16,7 @@ void _putchar(void)
 
 int main(void)
 {
-	_putchar();
+	_first();
 	return (0);
 }
 
