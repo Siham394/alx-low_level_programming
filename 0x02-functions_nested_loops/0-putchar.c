@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * _putchar - own function
+ * _first - own function
  * Return 0
  */
 
