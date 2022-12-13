@@ -2,12 +2,13 @@
 
 /**
  * print_alphabet - check the code
- * Return: Always 0.
- */
+ *
+ **/
 void print_alphabet(void)
 {
-	char x;
-	for (x = 'a'; x <= 'z'; x++)
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 		_putchar(0);
 	_putchar('\n');
 }
