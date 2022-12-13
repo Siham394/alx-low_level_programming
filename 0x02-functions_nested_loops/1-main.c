@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include "main.h"
-#include <unistd.h>
 /**
  * print_alphabet -prints alphabet
  *
@@ -16,7 +14,10 @@ void print_alphabet(void)
 	}
 	putchar('\n');
 }
-
+/**
+ * main- i prinf
+ * Reurn:0
+ */ 
 int main(void)
 {
 	print_alphabet();
